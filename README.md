@@ -8,7 +8,13 @@
   Binary builds and update feeds for <strong><a href="https://github.com/thienle99-dev/dbplus">DB Plus</a></strong> — a native database IDE for macOS, Windows, and Linux.
 </p>
 
-This repository holds **distribution artifacts only**. Application source lives in [`thienle99-dev/dbplus`](https://github.com/thienle99-dev/dbplus).
+<p align="center">
+  <a href="https://dbplus.vercel.app/">Website</a> ·
+  <a href="https://github.com/thienle99-dev/dbplus">Source</a> ·
+  <a href="https://github.com/thienle99-dev/dbplus-release/releases/latest">Latest release</a>
+</p>
+
+This repository holds **distribution artifacts only**. Application source lives in [`thienle99-dev/dbplus`](https://github.com/thienle99-dev/dbplus). Product site: [dbplus.vercel.app](https://dbplus.vercel.app/).
 
 <p align="center">
   <img src="images/showcase.png" alt="DB Plus — schema sidebar, data grid, and AI assistant" width="900" />
@@ -61,15 +67,16 @@ Built-in engines ship inside the app. Reference drivers are validated, signed pa
 
 ## Download
 
-Latest builds: **[Releases → Latest](https://github.com/thienle99-dev/dbplus-release/releases/latest)**
+- **Website (recommended):** [dbplus.vercel.app](https://dbplus.vercel.app/) → Download
+- **This repo:** **[Releases → Latest](https://github.com/thienle99-dev/dbplus-release/releases/latest)**
 
 | Platform | Asset (typical) | Status |
 |---|---|---|
-| macOS (Apple Silicon / Intel) | `DBPlus-<version>-<arch>.dmg` | Published |
-| Windows | Velopack installer / nupkg | When published |
-| Linux | AppImage | When published |
+| macOS (Apple Silicon) | [`DBPlus-1.0.0-arm64.dmg`](https://github.com/thienle99-dev/dbplus-release/releases/download/v1.0.0/DBPlus-1.0.0-arm64.dmg) | Published |
+| Windows | Velopack installer / nupkg | Coming soon |
+| Linux | AppImage | Coming soon |
 
-**macOS requirements:** macOS 14+. Current `v1.0.0` ships **arm64** (Apple Silicon).
+**macOS requirements:** macOS 14+. Current `v1.0.0` ships **arm64** (Apple Silicon). Intel builds not published yet.
 
 ### macOS first open (unsigned builds)
 
