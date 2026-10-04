@@ -1,8 +1,20 @@
 # DB Plus Releases
 
-Binary builds and update feeds for **[DB Plus](https://github.com/thienle99-dev/dbplus)** — a native database IDE for macOS, Windows, and Linux.
+<p align="center">
+  <img src="images/logo.png" alt="DB Plus" width="128" />
+</p>
+
+<p align="center">
+  Binary builds and update feeds for <strong><a href="https://github.com/thienle99-dev/dbplus">DB Plus</a></strong> — a native database IDE for macOS, Windows, and Linux.
+</p>
 
 This repository holds **distribution artifacts only**. Application source lives in [`thienle99-dev/dbplus`](https://github.com/thienle99-dev/dbplus).
+
+<p align="center">
+  <img src="images/showcase.png" alt="DB Plus — schema sidebar, data grid, and AI assistant" width="900" />
+</p>
+
+<p align="center"><em>Schema browser, editable data grid, and schema-aware AI assistant</em></p>
 
 ## Features
 
@@ -15,6 +27,12 @@ This repository holds **distribution artifacts only**. Application source lives 
 - **Local credentials** — Passwords in macOS Keychain / Windows Credential Manager; never stored in connection files or logs.
 - **External drivers** — Optional sandboxed `.dbplusdriver` packages (DuckDB, Cassandra, CockroachDB, Elasticsearch, …).
 - **Auto-update (macOS)** — Sparkle feed hosted on this repository’s Releases.
+
+<p align="center">
+  <img src="images/mcp.png" alt="DB Plus MCP Server overview" width="720" />
+</p>
+
+<p align="center"><em>Built-in MCP server — per-connection access modes and activity log</em></p>
 
 ## Supported databases
 
