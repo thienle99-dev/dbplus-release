@@ -18,11 +18,27 @@ Website download buttons also point here.
 
 ### macOS first open (unsigned builds)
 
-If the build is **not** notarized with an Apple Developer ID, Gatekeeper may block the app. Use:
+If the build is **not** notarized with an Apple Developer ID, Gatekeeper may block the app.
+
+**Option A — Finder**
 
 1. Open the DMG and drag **DB Plus** to Applications.
 2. In Finder → Applications → **right-click DB Plus → Open** (not double-click).
 3. Confirm Open.
+
+**Option B — clear quarantine attribute (Terminal)**
+
+After copying the app to Applications (or wherever you installed it):
+
+```bash
+# App already in /Applications
+sudo xattr -dr com.apple.quarantine /Applications/DBPlus.app
+
+# Or clear quarantine on the DMG before opening it
+sudo xattr -d com.apple.quarantine ~/Downloads/DBPlus-*-arm64.dmg
+```
+
+`-dr` clears the attribute recursively on the `.app` bundle. Then open DB Plus normally.
 
 ## Auto-update (macOS / Sparkle)
 
