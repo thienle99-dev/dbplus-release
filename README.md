@@ -67,12 +67,12 @@ Built-in engines ship inside the app. Reference drivers are validated, signed pa
 
 ## Download
 
-- **Website (recommended):** [dbplus.vercel.app](https://dbplus.vercel.app/) → Download
-- **This repo:** **[Releases → Latest](https://github.com/thienle99-dev/dbplus-release/releases/latest)**
+- **Website:** [dbplus.vercel.app](https://dbplus.vercel.app/) → Download (opens Releases)
+- **Releases:** **[Latest](https://github.com/thienle99-dev/dbplus-release/releases/latest)**
 
 | Platform | Asset (typical) | Status |
 |---|---|---|
-| macOS (Apple Silicon) | [`DBPlus-1.0.0-arm64.dmg`](https://github.com/thienle99-dev/dbplus-release/releases/download/v1.0.0/DBPlus-1.0.0-arm64.dmg) | Published |
+| macOS (Apple Silicon) | `DBPlus-<version>-arm64.dmg` on Releases | Published |
 | Windows | Velopack installer / nupkg | Coming soon |
 | Linux | AppImage | Coming soon |
 
