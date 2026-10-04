@@ -66,9 +66,3 @@ UNSIGNED=1 ./scripts/release.sh   # or signed/notarized release when Developer I
 `publish.sh` defaults to `RELEASE_REPO=thienle99-dev/dbplus-release`.
 
 Do **not** commit Apple signing secrets, Sparkle EdDSA private keys, or notarization credentials here.
-
-## Links
-
-- Source: https://github.com/thienle99-dev/dbplus
-- Issues / PRs: use the source repository
-- License: see the source repository
